@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url("https://use.typekit.net/hsm5qyr.css");
+* {
+    font-family: muli, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 700px;
+    max-height: 900px;
+    background-image: url("../img/b7e568c3e0aae3049ef11dee60af1d9f.png");
+    background-size: cover;
+}
+
+p {
+    font-weight: 700;
+    font-size: 55px;
+}
+
+.navbar  {
+    background-color: rgb(19, 19, 19);
+    height: 60px;
+}
+
+.navbar .logo {
+    margin-left: 100px;
+    border-radius: 20%;
+    margin-top: 7px;
+    position: absolute;
+}
+
+
+.navbar ul {
+    margin-left: 150px;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block;
+    cursor: pointer;
+    color: white;
+    padding: 17px;
+    margin-top: 5px;
+    border-radius: 5px;
+}
+
+.navbar .left{
+    float: left;
+}
+
+.navbar ul li:hover {
+    background-color: white;
+    color: black;
+}
+
+.navbar .profile-nav {
+    float: right;
+}
+
+.navbar .profile-nav ul li{
+    color: white;
+    z-index: 2;
+}
+
+.navbar .profile-nav ul li:last-child {
+    margin-right: 100px;
+}
+
+.navbar .profile-nav ul li:hover {
+    color: black;
+}
+
+.container {
+    height: 700px;
+    background-size: cover;
+    padding: 15px;
+}
+
+.container .notif h3{
+    background-color: rgb(255, 123, 0);
+    padding: 15px;
+    width: 60%;
+    border-radius: 5px;
+    font-weight: 400;
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.pp {
+    position: absolute;
+    top: 10px;
+    border-radius: 50%;
+    right: 400px;
+    user-select: none;
+}
+
+.merkez {
+    margin: 20px;
+    text-align: center;
+}
+
+.merkez img {
+    border-radius: 50%;
+}
+
+.merkez .buttons {
+    margin: 20px;
+}
+
+.merkez .buttons button {
+    margin: 10px;
+    width: 150px;
+    height: 60px;
+    background-color: rgba(12, 12, 12, 0.7);
+    color: white;
+    font-weight: 500;
+    border: 0;
+    font-size: 20px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.merkez .buttons button:hover {
+    background-color: orange;
+}
+
+.footer {
+    height: 100px;
+    background-color: rgb(5, 5, 5);
+    color: white;
+}
+
+.footer .footer-left {
+    float: left;
+    margin: 30px;
+}
+
+.footer .footer-right {
+    float: right;
+    margin: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(138, 5, 5);
+}
+
+.profile-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.profile-nav ul li:hover > a {
+    color: black;
+}
+
+.container .servertab {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 500px;
+    height: 350px;
+    border-radius: 5px;
+    background-color: rgba(20, 20, 20,0.8);
+}
+
+.container .servertab h4{
+    color: white;
+    margin: 3px;
+    font-weight: 300;
+}
+.clicktologin {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid green;
+    color: green;
+}
+
+.clicktologin:hover {
+    background-color: green;
+    color: white;
+}
+
+.clicktologinred {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid red;
+    color: red;
+    cursor: no-drop;
+}
+
+
+.clicktologinred:hover {
+    background-color: red;
+    color: white;
+}
